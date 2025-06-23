@@ -1,0 +1,34 @@
+
+# Nmap TCP SYN Scan Report
+# Date: 2025-06-23
+# Command Used: nmap -sS 184.168.119.95
+
+Nmap scan report for 95.119.168.184.host.secureserver.net (184.168.119.95)
+Host is up (0.043s latency).
+
+Open TCP Ports:
+----------------
+PORT     STATE SERVICE
+21/tcp   open  ftp         - File Transfer Protocol (unsecured)
+22/tcp   open  ssh         - Secure Shell
+25/tcp   open  smtp        - Simple Mail Transfer Protocol
+70/tcp   open  gopher      - Gopher Protocol (legacy)
+80/tcp   open  http        - HyperText Transfer Protocol
+110/tcp  open  pop3        - Post Office Protocol v3
+143/tcp  open  imap        - Internet Message Access Protocol
+443/tcp  open  https       - Secure HTTP
+587/tcp  open  submission  - Mail submission (SMTP)
+993/tcp  open  imaps       - Secure IMAP
+995/tcp  open  pop3s       - Secure POP3
+3306/tcp open  mysql       - MySQL Database Server
+
+Summary:
+--------
+Total Ports Scanned: 1000
+Open Ports: 12
+Filtered Ports: 988 (no response)
+
+Note:
+- These results indicate several commonly used services are running.
+- Security risks could include weak credentials, outdated software, or unpatched services.
+- Further analysis recommended with tools like Wireshark, Nikto, or vulnerability scanners.
